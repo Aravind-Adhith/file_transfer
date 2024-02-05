@@ -1,0 +1,467 @@
+{
+  "cameras" : 
+  {
+    "0" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 1080,
+          "size_width" : 1920
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.077667921781539917,
+          "b" : 0.020574213936924934,
+          "c" : 0.22710986435413361,
+          "d" : -0.017581447958946228,
+          "e" : 0.044192768633365631,
+          "f" : 0.1483316570520401,
+          "g" : 0.032808817923069,
+          "h" : -0.10848093032836914,
+          "i" : 0.61683541536331177
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 175,
+              "y" : 0
+            },
+            {
+              "x" : 485,
+              "y" : 850
+            },
+            {
+              "x" : 485,
+              "y" : 925
+            },
+            {
+              "x" : 0,
+              "y" : 925
+            },
+            {
+              "x" : 0,
+              "y" : 0
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : 1.6999999284744263
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 22.37303352355957,
+          "scale_y" : 39.7742919921875
+        },
+        "translate" : 
+        {
+          "offset_x" : 4.619997501373291,
+          "offset_y" : 7.5899958610534668
+        }
+      },
+      "pipeline" : "filesrc location=calibration_images/img_0.jpg ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "1" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 1080,
+          "size_width" : 1920
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.10269945114850998,
+          "b" : -0.00088091491488739848,
+          "c" : -0.038131382316350937,
+          "d" : -0.0045221797190606594,
+          "e" : 0.054756738245487213,
+          "f" : 0.073347628116607666,
+          "g" : -0.016243059188127518,
+          "h" : -0.15258853137493134,
+          "i" : 0.80599069595336914
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 0,
+              "y" : 250
+            },
+            {
+              "x" : 0,
+              "y" : 0
+            },
+            {
+              "x" : 1080,
+              "y" : 0
+            },
+            {
+              "x" : 1080,
+              "y" : 250
+            },
+            {
+              "x" : 600,
+              "y" : 850
+            },
+            {
+              "x" : 475,
+              "y" : 850
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : 0.049999900162220001
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 21.748262405395508,
+          "scale_y" : 38.663597106933594
+        },
+        "translate" : 
+        {
+          "offset_x" : 0.099999628961086273,
+          "offset_y" : 8.6200017929077148
+        }
+      },
+      "pipeline" : "filesrc location=calibration_images/img_1.jpg ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "2" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 1080,
+          "size_width" : 1920
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.04159657284617424,
+          "b" : 0.068313241004943848,
+          "c" : 0.045644141733646393,
+          "d" : -0.039869952946901321,
+          "e" : 0.01972942054271698,
+          "f" : 0.054258633404970169,
+          "g" : 0.12664797902107239,
+          "h" : -0.036652646958827972,
+          "i" : 0.85757327079772949
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 600,
+              "y" : 850
+            },
+            {
+              "x" : 830,
+              "y" : 0
+            },
+            {
+              "x" : 1080,
+              "y" : 0
+            },
+            {
+              "x" : 1080,
+              "y" : 925
+            },
+            {
+              "x" : 600,
+              "y" : 925
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -0.040000066161155701
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 21.864309310913086,
+          "scale_y" : 38.869880676269531
+        },
+        "translate" : 
+        {
+          "offset_x" : -6.7999954223632812,
+          "offset_y" : 6.4799938201904297
+        }
+      },
+      "pipeline" : "filesrc location=calibration_images/img_2.jpg ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "3" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 1080,
+          "size_width" : 1920
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.061276562511920929,
+          "b" : 0.06625790148973465,
+          "c" : -0.16487681865692139,
+          "d" : -0.042940445244312286,
+          "e" : 0.03911546990275383,
+          "f" : 0.057063166052103043,
+          "g" : 0.091087512671947479,
+          "h" : -0.079701639711856842,
+          "i" : 0.87671792507171631
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 0,
+              "y" : 1920
+            },
+            {
+              "x" : 450,
+              "y" : 1920
+            },
+            {
+              "x" : 485,
+              "y" : 1250
+            },
+            {
+              "x" : 485,
+              "y" : 900
+            },
+            {
+              "x" : 0,
+              "y" : 900
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : 3.1599991321563721
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 20.917728424072266,
+          "scale_y" : 37.187065124511719
+        },
+        "translate" : 
+        {
+          "offset_x" : 5.369997501373291,
+          "offset_y" : -1.9500004053115845
+        }
+      },
+      "pipeline" : "filesrc location=calibration_images/img_5.jpg ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "4" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 1080,
+          "size_width" : 1920
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.11215543746948242,
+          "b" : -0.0040054386481642723,
+          "c" : 0.032828956842422485,
+          "d" : -0.0058745578862726688,
+          "e" : 0.055846996605396271,
+          "f" : 0.12682069838047028,
+          "g" : -0.010674254968762398,
+          "h" : -0.16461902856826782,
+          "i" : 0.61567068099975586
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 900,
+              "y" : 1920
+            },
+            {
+              "x" : 180,
+              "y" : 1920
+            },
+            {
+              "x" : 485,
+              "y" : 1100
+            },
+            {
+              "x" : 600,
+              "y" : 1100
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -3.0199980735778809
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 23.519657135009766,
+          "scale_y" : 41.812732696533203
+        },
+        "translate" : 
+        {
+          "offset_x" : -0.18999980390071869,
+          "offset_y" : -10.540004730224609
+        }
+      },
+      "pipeline" : "filesrc location=calibration_images/img_4.jpg ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "5" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 1080,
+          "size_width" : 1920
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.074124112725257874,
+          "b" : 0.046012472361326218,
+          "c" : 0.10187218338251114,
+          "d" : -0.03554045781493187,
+          "e" : 0.041400421410799026,
+          "f" : 0.11177785694599152,
+          "g" : 0.061112780123949051,
+          "h" : -0.098579853773117065,
+          "i" : 0.73846900463104248
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 1080,
+              "y" : 1920
+            },
+            {
+              "x" : 625,
+              "y" : 1920
+            },
+            {
+              "x" : 600,
+              "y" : 1250
+            },
+            {
+              "x" : 600,
+              "y" : 900
+            },
+            {
+              "x" : 1080,
+              "y" : 900
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -1.5700000524520874
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 23.166023254394531,
+          "scale_y" : 41.183982849121094
+        },
+        "translate" : 
+        {
+          "offset_x" : -5.8899984359741211,
+          "offset_y" : -0.6099998950958252
+        }
+      },
+      "pipeline" : "filesrc location=calibration_images/img_3.jpg ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    }
+  },
+  "overlay" : 
+  {
+    "pipeline" : "filesrc location=samples/bev_6_cameras/top_car.png ! decodebin ! videoconvert ! videoscale ! video/x-raw,format=RGBx,width=10,height=10 ! appsink name=appsink",
+    "x_pos" : 240,
+    "y_pos" : 650
+  }
+}
